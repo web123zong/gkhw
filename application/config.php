@@ -144,10 +144,10 @@ return [
 
     // 视图输出字符串内容替换
     'view_replace_str'       => [
-        '__ADMIN_CSS__' => '/public/static/admin/css/',
-        '__ADMIN_JS__' => '/public/static/admin/js/',
-        '__ADMIN_IMG__' => '/public/static/admin/img/',
-        '__ADMIN_FONTS__' => '/public/static/admin/fonts/',
+        '__ADMIN_CSS__' => '/static/admin/css',
+        '__ADMIN_JS__' => '/static/admin/js',
+        '__ADMIN_IMG__' => '/static/admin/img',
+        '__ADMIN_FONTS__' => '/static/admin/fonts',
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
